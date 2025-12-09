@@ -50,13 +50,13 @@ export default function StepperForm() {
             setShowModal(true)
             // Send a mail with sesend
 
-            const res = await fetch("/api/send", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(formData),
-            });
+            // const res = await fetch("/api/send", {
+            //     method: "POST",
+            //     headers: { "Content-Type": "application/json" },
+            //     body: JSON.stringify(formData)
+            // });
 
-            const data = await res.json();
+            // const data = await res.json();
 
             // if (data.success) {
             //     alert("Message sent!");
